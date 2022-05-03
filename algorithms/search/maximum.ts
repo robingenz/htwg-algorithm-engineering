@@ -12,3 +12,4 @@ const maxElementIndex = (values: number[]): number => {
 
 const result = maxElementIndex([1720, 1721, 979, 366, 299, 675, 1456]);
 console.log(`Index: ${result}`);
+export {};
