@@ -1,3 +1,10 @@
+/**
+ * Rekursive Suche
+ *
+ * Die binäre Suche mit einem rekursiven Algorithmus implementiert.
+ *
+ * Komplexität: O(log n)
+ */
 const recursiveSearch = (
   values: number[],
   searchValue: number,

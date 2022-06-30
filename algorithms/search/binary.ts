@@ -1,4 +1,12 @@
-// Annahme: Die Zahlen sind aufsteigend sortiert.
+/**
+ * Binärsuche
+ *
+ * Liste wird immer wieder halbiert, bis das Objekt gefunden wurde.
+ *
+ * Annahme: Die Zahlen sind aufsteigend sortiert.
+ *
+ * Komplexität: O(log n)
+ */
 const binarySearch = (array: number[], target: number): number => {
   let left = 0;
   let right = array.length - 1;

@@ -1,3 +1,10 @@
+/**
+ * Maximum-Suche
+ *
+ * Iteriert über alle Werte und speichert nur den zuletzt größten Wert zwischen.
+ *
+ * Komplexitat: O(n)
+ */
 const maximumSearch = (values: number[]): number => {
   let indexMaxValue = 0;
   let maxValue = values[0];
