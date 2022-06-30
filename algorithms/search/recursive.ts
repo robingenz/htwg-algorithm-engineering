@@ -1,4 +1,9 @@
-const recursiveSearch = (values: number[], searchValue: number, left: number, right: number): number => {
+const recursiveSearch = (
+  values: number[],
+  searchValue: number,
+  left: number,
+  right: number,
+): number => {
   if (left > right) {
     return -1;
   }
@@ -12,6 +17,7 @@ const recursiveSearch = (values: number[], searchValue: number, left: number, ri
   }
 };
 
-const result = recursiveSearch([2, 7, 8, 9, 10, 13, 17, 19, 21], 8, 0, 8);
+const values = [2, 7, 8, 9, 10, 13, 17, 19, 21];
+const result = recursiveSearch(values, values[2], 0, values.length - 0);
 console.log(`Index: ${result}`);
 export {};
