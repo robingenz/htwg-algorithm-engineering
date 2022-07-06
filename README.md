@@ -3,5 +3,5 @@
 **Example**:
 
 ```
-npx ts-node algorithms/<directory>/<name>.ts
+python algorithms/<directory>/<name>.py
 ```
