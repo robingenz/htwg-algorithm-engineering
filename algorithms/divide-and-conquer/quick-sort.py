@@ -3,7 +3,7 @@ Quick Sort
 
 Auswählen eines Pivot-Elements und sortieren der restlichen Elemente in ein "left" und ein "right" Array.
 
-Komplexität: O(n^2)
+Komplexität: O(n log n)
 """
 
 
