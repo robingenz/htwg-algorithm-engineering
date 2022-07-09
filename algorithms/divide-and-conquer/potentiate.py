@@ -3,7 +3,7 @@ Potenzieren
 
 Berechnung der Potenz der Basis b und des Exponenten e.
 
-Komplexität: 
+Komplexität: O(n)
 """
 
 
