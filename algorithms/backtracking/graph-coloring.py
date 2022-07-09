@@ -3,7 +3,7 @@ Färbung von Graphen
 
 Prüfung, ob n Farben so zu Knoten zugeordnet werden können, dass benachbarte Knoten verschiedene Farben haben. 
 
-Komplexität: 
+Komplexität: O(n^n)
 """
 
 
