@@ -32,4 +32,4 @@ def isThreat(positions: list, x1: int, x2: int) -> bool:
 
 
 if __name__ == "__main__":
-    print(main(100))
+    print(main(4))
