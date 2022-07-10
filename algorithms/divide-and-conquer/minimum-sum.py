@@ -34,4 +34,4 @@ def main(values: list, left: int = None, right: int = None) -> int:
 
 
 if __name__ == "__main__":
-    print(main([2, 1, -4, -6, 3, -11, 1, -2, 17, -13]))
+    print(main([3, 5, 7, -4, -3, -1, 5, -9, 12, -2]))
