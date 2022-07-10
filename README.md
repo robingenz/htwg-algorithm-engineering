@@ -1,6 +1,8 @@
 # htwg-algorithm-engineering
 
-**Example**:
+🎓 Python algorithms for the lecture "Algorithmentechnik" at HTWG. 
+
+# Development
 
 ```
 python algorithms/<directory>/<name>.py
