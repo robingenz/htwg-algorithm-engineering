@@ -12,10 +12,8 @@ def main(values: list, left: int = None, right: int = None) -> int:
         left = 0
     if right == None:
         right = len(values)-1
-    if left > right:
-        return 0
-    if left == right:
-        return min(0, values[right])
+    if left >= right:
+        return values[left]
     mid = int((left+right)/2)
 
     sum = 0
