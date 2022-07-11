@@ -13,16 +13,15 @@ def main(basis: int, exponent: int, mod: int) -> int:
     if exponent == 0:
         return 1
 
-    y = 0
+    result = 0
     if exponent % 2 == 0:
-        y = main(basis, exponent / 2, mod)
-        y = y*y % mod
+        result = main(basis, exponent / 2, mod)
+        result = result*result % mod
     else:
-        y = basis % mod
-        y = (y*main(basis, exponent-1, mod) % mod) % mod
+        result = ((basis % mod)*(main(basis, exponent-1, mod) % mod)) % mod
 
-    return ((y+mod) % mod)
+    return (result % mod)
 
 
 if __name__ == "__main__":
-    print(main(2, 5, 13))
+    print(main(2, 28, 13))
