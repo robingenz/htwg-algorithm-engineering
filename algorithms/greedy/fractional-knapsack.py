@@ -3,16 +3,15 @@ Das fraktionale Rucksackproblem
 
 Fülle den Rucksack zuerst mit den wertvollsten Gegenständen und fülle mit den weniger wertvollen Gegenständen bzw. Bruchstücken von Gegenständen sukzessive auf.
 
-Komplexität: O(n log n)
+Annahme: Beide Arrays sind sortiert.
+
+Komplexität: O(n)
 """
 
 
 def main(values: list, weights: list, capacity: int) -> int:
-    indexes = list(range(len(values)))
-    ratio = [v/w for v, w in zip(values, weights)]
-    indexes.sort(key=lambda i: ratio[i], reverse=True)
     max_value = 0
-    for i in indexes:
+    for i in range(len(values)):
         if capacity == 0:
             break
         wc_ratio = 1
@@ -24,4 +23,4 @@ def main(values: list, weights: list, capacity: int) -> int:
 
 
 if __name__ == "__main__":
-    print(main([120, 100, 60], [30, 20, 10],  50))
+    print(main([60, 100, 120], [10, 20, 30],  50))
