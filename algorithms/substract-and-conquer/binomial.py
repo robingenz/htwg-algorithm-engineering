@@ -8,7 +8,7 @@ Komplexität: O(n^2)
 
 
 def binomial(n: int, k: int) -> int:
-    if k == 0 or k == n:
+    if n == k or k == 0:
         return 1
     return binomial(n - 1, k) + binomial(n-1, k-1)
 
