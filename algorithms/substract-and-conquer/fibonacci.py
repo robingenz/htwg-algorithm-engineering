@@ -3,7 +3,7 @@ Fibonacci
 
 Berechne die n-te Fibonacci Zahl.
 
-Komplexität: 
+Komplexität: O(2^n)
 """
 
 
